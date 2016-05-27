@@ -14,11 +14,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-#include "task1.h"
-
+// #include "task1.h"
+#include "task2.h"
 
 int main(int argc, char** argv)
 {
-	task1(argc, argv);
+	//task1(argc, argv);
+	task2();
     	return 0;
 }

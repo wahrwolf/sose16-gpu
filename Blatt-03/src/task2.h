@@ -47,3 +47,34 @@ double absVector(vector<double> v)
 	}
 	return sqrt(puffer);
 }
+
+vector<double> v1( vector<double> v, int sizeX, int sizeY)
+{
+	vectory<double> vReturn;
+	
+	vReturn.push_back(0.0);
+	vReturn.push_back(0.0);
+
+	if(v.size() == 2)
+	{
+		vReturn[0] = - (v[1] - (2.0/8.0) * sizeY);
+		vReturn[1] =    v[0] - (1.0 / 5.0) * sizeX;
+	}
+	return vReturn;
+
+}
+vector<double> v2( vector<double> v, int sizeX, int sizeY)
+{
+	vectory<double> vReturn;
+	
+	vReturn.push_back(0.0);
+	vReturn.push_back(0.0);
+
+	if(v.size() == 2)
+	{
+		vReturn[0] = - (v[1] - (2.0/8.0) * sizeY);
+		vReturn[1] =    v[0] - (1.0 / 5.0) * sizeX;
+	}
+	return vReturn;
+
+}
