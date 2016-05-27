@@ -15,15 +15,12 @@
 
 */
 #include <iostream>
-#include "task1.h"
-//#include "task2.h"
+//#include "task1.h"
+#include "task2.h"
 
-using namespace std;
 
 int main(int argc, char** argv)
 {
-
- 	task1(argc, argv);  
- 	//task2(argc, argv);  
+	task2(argc, argv);
     	return 0;
 }
